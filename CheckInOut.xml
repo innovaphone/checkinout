@@ -120,7 +120,7 @@
   		</event>
 		<switch var="$Mlen">
 			<case equal="0">
-				<store-get root="" name="mmenu.$coder" out-url="$ctrl" /> 
+				<store-get root="" name=Mmenu.$coder" out-url="$ctrl" /> 
   				<pbx-prompt url="$ctrl"  repeat="false" /> 
 			</case>
 		</switch>
@@ -134,4 +134,4 @@
 </voicemail>
 
 
-<!-- Check_In_Check_Out wiki-src/xml/CheckInOut 1,0,0,0 (C) innovaphone AG 2010-2011 -->
+<!-- Check_In_Check_Out wiki-src/xml/CheckInOut 1,0,1,0 (C) innovaphone AG 2010-2018 -->
